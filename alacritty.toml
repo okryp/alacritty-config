@@ -1,0 +1,20 @@
+# Theme
+import = [
+  "~/.config/alacritty/themes/themes/chicago95.toml"
+]
+
+[window]
+dynamic_padding = true
+opacity = 0.9
+
+[scrolling]
+history = 10000
+
+[font]
+normal = { family = "BigBlueTermPlus Nerd Font Mono", style = "normal"}
+bold = { family = "BigBlueTermPlus Nerd Font Mono", style = "bold"}
+italic = { family = "BigBlueTermPlus Nerd Font Mono", style = "italic"}
+bold_italic = { family = "BigBlueTermPlus Nerd Font Mono", style = "bold_italic"}
+
+[colors]
+draw_bold_text_with_bright_colors = true
